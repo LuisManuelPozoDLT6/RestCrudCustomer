@@ -47,7 +47,7 @@ public class Service {
         return null;
     }
 
-    @DELETE
+    @POST
     @Path("/delete/{id}")
     @Produces(MediaType.APPLICATION_JSON)
     public boolean deleteCustomer(@PathParam("id") int customerNumber){
