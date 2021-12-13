@@ -214,7 +214,7 @@ const deleteCustomers = () => {
     console.log(form);
 
     $.ajax({
-        type: 'DELETE',
+        type: 'POST',
         headers: {
             "Accept": "application/json",
             "Content-Type": "application/x-www-form-urlencoded"
